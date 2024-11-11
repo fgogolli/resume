@@ -1,0 +1,11 @@
+# In this file, you can override most of the sections titles
+
+career-profile: Professional Summary # default: Career Profile
+awards: Public Speaking # default: Awards
+education: # default: Education
+experience: Professional Experience # default: Work Experience
+achievements: # default: Achievements
+technologies: # default: Technologies used
+interests: # default: Interests
+language: # default: Language
+skills: # default: Skills &amp; Tools

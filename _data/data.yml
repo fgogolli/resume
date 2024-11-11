@@ -1,0 +1,373 @@
+header:
+  # Profile information
+  avatar: profile.jpg
+  email: mail@flamur.dev
+  phone: 
+  website: https://resume.flamur.dev
+  linkedin: flamurgogolli
+  github: fgogolli
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow:
+  codewars:
+  goodreads:
+
+languages:
+  - idiom: Albanian
+    level: Native
+  - idiom: English
+    level: Bilingual
+  - idiom: Turkish
+    level: Professional
+  - idiom: German
+    level: Limited working
+
+interests:
+  - name: Cloud Architecture
+    link:
+  - name: DevOps
+    link:
+  - name: Open Source
+    link:
+  - name: Travel
+    link:
+  - name: Cinema
+    link:
+  - name: Latest Tech
+    link:
+
+summary: |
+  A seasoned cloud engineer and architect with over 22 years of progressive experience in technology leadership, cloud architecture, and digital transformation. Currently serving as a member of the TOC at FINOS and as a Senior Specialist Solutions Architect at AWS, I bring hands-on expertise in cloud-native technologies, systems & platform engineering, and technical leadership. My career spans roles across multiple industries, including major financial institutions, global tech companies, media and telecommunications providers, where I've consistently delivered complex technical solutions and led high-performing teams.
+
+education:
+  - degree: Bachelor's Degree in Computer Science and Engineering
+    university: University for Business and Technology
+    time: 2012
+    details: |
+      Major in Software and Systems Engineering
+
+experiences:
+  - role: Technical Oversight Committee (TOC)
+    time: October 2024 - Present
+    company: Fintech Open Source Foundation (FINOS)
+    details: |
+      - Provide technical oversight for FINOS projects, evaluating contributions and activations.
+      - Lead recruitment efforts for FINOS Ambassadors and support Open Source in Finance Forum initiatives.
+      - Sponsor and guide strategic initiatives, reporting progress to the TOC and FINOS Board.
+      - Monitor project health and provide reports on the FINOS project landscape.
+      - Support hackathons, tech sprints, and mentorship programs within the FINOS ecosystem.
+    technologies:
+      - Open Source
+      - FinTech
+      - Technical Oversight
+
+  - role: Senior Specialist Solutions Architect - Compute
+    time: December 2022 - Present
+    company: Amazon Web Services (AWS)
+    details: |
+      - Deliver expert technical guidance to address critical challenges for AWS customers and teams.
+      - Establish thought leadership by speaking publicly, creating technical content, and developing internal training resources.
+      - Design reference architectures and enablement materials for complex, scalable compute infrastructures.
+      - Develop and execute go-to-market strategies, supporting field marketing initiatives with technical insights for events and campaigns.
+      - Represent the voice of the customer, influencing AWS product and service innovations based on feedback and market trends.
+      - Collaborate with AWS service teams, customers, and partners to enhance performance and adoption of Compute products and services.
+    technologies:
+      - AWS
+      - Cloud Architecture
+      - Efficient Compute
+      - EC2
+      - EKS
+      - Containers
+      - HPC
+      - Spot
+      - Graviton
+      - GenAI
+      - LLMs
+      - Serverless
+      - Confidential Compute
+      - GPUs
+      - FSI
+
+  - role: Vice President - Cloud Architect / Platform Tech Lead
+    time: October 2018 - November 2022
+    company: J.P. Morgan & Chase
+    details: |
+      - Architected and led the design and implementation of a global Risk and Trade Management platform using cloud-native technologies.
+      - Led a high-performing platform engineering team, providing technical mentorship in cloud-native tools and practices such as Kubernetes, Terraform, DevOps, and CI/CD.
+      - Served as primary project lead, managing relationships with stakeholders across technical and business teams.
+      - Developed reusable cloud architecture patterns to standardize and accelerate cloud adoption.
+      - Established architectural standards for resiliency, security, and compliance meeting FSI requirements.
+      - Provided strategic guidance on emerging technologies and cloud innovations.
+    technologies:
+      - Cloud-native technologies
+      - Kubernetes
+      - Terraform
+      - DevOps
+      - CI/CD
+      - Risk and Trade Management platforms
+      - Security
+      - Scalability
+      - Resiliency
+
+  - role: Senior DevOps Engineer
+    time: August 2017 - September 2018
+    company: Schibsted Media Group
+    details: |
+      - Championed a team-wide DevOps culture and led AWS automation through Infrastructure-as-Code.
+      - Advocated for and implemented containerization of services using Kubernetes, Docker, and AWS ECS.
+      - Managed the migration of multiple services into AWS and Kubernetes, automating end-to-end deployment workflows with CI/CD tools such as Git, Travis, and Spinnaker.
+    technologies:
+      - DevOps
+      - AWS
+      - Infrastructure-as-Code
+      - Kubernetes
+      - Docker
+      - AWS ECS
+      - Git
+      - Travis
+      - Spinnaker
+      - CI/CD
+
+  - role: DevOps Tech Lead / Site Reliability Engineer
+    time: Oct 2015 – Jul 2017
+    company: Cisco Systems GmbH
+    details: |
+      - Led DevOps architecture and implementation for AWS and Kubernetes deployments.
+      - Implemented Infrastructure-as-Code and CI/CD practices using cloud-native technologies across multiple teams.
+      - Operated multi-region Java applications running on private and public cloud (OpenStack and AWS), utilizing HA clustering (Heartbeat, DRBD), nginx load balancers, and PostgreSQL databases.
+      - Enhanced centralized infrastructure monitoring and management systems.
+      - Provided third-level support, ensuring uninterrupted operations for the entire infrastructure.
+    technologies:
+      - DevOps
+      - AWS
+      - Kubernetes
+      - Infrastructure-as-Code
+      - CI/CD
+      - Java
+      - Tomcat
+      - Heartbeat
+      - DRBD
+      - nginx
+      - PostgreSQL
+      - Puppet
+      - Hiera
+      - Debian GNU / Linux
+      - Openstack
+      - QEMU/Libvirt
+      - XEN
+      - Cisco UCS
+      - Vagrant
+      - Packer
+      - Terraform
+      - Consul
+      - Vault
+      - traefik
+      - Fabio
+      - stolon
+      - GlusterFS
+      - Heketi
+      - Rancher
+
+  - role: Principal IT Consultant / Systems Engineer
+    time: Aug 2013 – Sep 2015
+    company: Amaris GmbH
+    details: |
+      - Developed private cloud solutions for internal and external clients, including Office Web and VMware vCloud.
+      - Served as the Principal Consultant for external client migrations to cloud-native technologies.
+      - Designed, architected, and managed IT infrastructure, including Windows Servers, Exchange clusters, and VMware environments.
+      - Administered enterprise-grade firewalls, load balancers, and storage solutions.
+      - Provided third-level support and led external projects, such as Active Directory and SharePoint integrations.
+    technologies:
+      - Windows Servers
+      - Exchange Cluster Servers
+      - IIS
+      - Apache
+      - SQL Servers
+      - MySQL
+      - VDI
+      - RemoteApp
+      - RDS
+      - DNS
+      - DHCP
+      - Active Directory
+      - Group Policy
+      - WSUS
+      - WDS
+      - TMG
+      - UAG
+      - Ubuntu Servers
+      - VMware vCloud Director
+      - vCenter
+      - Cisco UCS
+      - EMC VNX
+      - ISILON Storage
+      - pfSense
+      - Microsoft Exchange
+      - Load Balancers (KEMP & ZEN)
+      - SharePoint
+      - ADFS
+      - ITIL
+
+  - role: Systems Engineer
+    time: Nov 2006 – Jul 2013
+    company: Post and Telecommunications of Kosovo
+    details: |
+      - Migrated and modernized the primary Telecom Billing System from a proprietary AIX stack to an open-source CentOS solution, saving millions in migration costs.
+      - Led administration of UNIX, Linux, and Windows server infrastructure, including database support.
+      - Managed critical IT projects, including Active Directory, File Server, and Exchange migrations, as well as backup, disaster recovery, and high-availability strategies.
+      - Configured network and security services across our countrywide network of offices and sales points.
+    technologies:
+      - UNIX
+      - AIX
+      - RedHat
+      - CentOS
+      - Ubuntu
+      - Solaris
+      - Oracle Linux
+      - PHP
+      - Apache
+      - MySQL
+      - LAMPP
+      - Perl
+      - bash
+      - cron
+      - Java
+      - Oracle DB
+      - Windows Server
+      - Active Directory
+      - Exchange
+      - ISA Servers
+      - Clustering Services
+      - McAfee ePolicy Orchestrator
+      - WSUS
+      - WDS
+      - Hyper-V
+      - Symantec BackupExec
+      - OpenFiler iSCSI
+      - HP Blade Enclosures
+      - IBM Servers
+      - Dell Servers
+      - HP EVA & MSA Storage
+      - HP MSL Tape Libraries
+      - ADSL & xDSL Modems
+      - Cisco Switches & Routers
+      - Cisco PIX & ASA Firewalls
+
+  - role: Web Application & Database Developer
+    time: Jun 2009 – Sep 2009
+    company: Quelle GmbH
+    details: |
+      - Responsible for the development of CMS web application (using PHP and MySQL) used to track changes in Quelle's website, enabling documentation and sector management, ensuring clear responsibilities for the editorial team.
+    technologies:
+      - PHP
+      - MySQL
+      - Web Application Development
+      - E-Commerce
+
+  - role: IT Consultant
+    time: May 2006 – Sep 2006
+    company: Kosovo Judicial Institute
+    details: |
+      - Configured and administered KJI's network infrastructure, including Active Directory, DNS, DHCP, and mail servers.
+      - Managed workstations, printers, and IT services, providing first and second-level support to users.
+    technologies:
+      - Active Directory
+      - DNS
+      - DHCP
+      - File & Print Server
+      - qMail Mail Server
+      - Squid Proxy Server
+      - Cisco Switches
+      - Routers
+      - Wireless Access Points
+      - Network Administration
+
+  - role: IT & Web Site Officer
+    time: Apr 2003 – Oct 2006
+    company: Ombudsperson Institution in Kosovo
+    details: |
+      - Designed, implemented and administered the IT infrastructure, including servers, routers, switches, network printers and workstations for the Ombudsperson's main office and six field offices, covering 200+ employees.
+      - Migrated the server infrastructure from a centralised system ran by OSCE to a private data-center.
+      - Provided first and second-level helpdesk support and managed the organization's website.
+    technologies:
+      - Cisco Switches
+      - Linksys Switches
+      - Routers
+      - Wireless Access Points
+      - Network Printers
+      - Windows 2000 & 2003
+      - Active Directory
+      - Windows File & Print Servers
+      - DNS
+      - DHCP
+      - qmail Mail Server
+      - Squid Proxy Server
+      - Web Design
+      - Network Administration
+
+skills:
+  - category: Cloud Providers
+    tools:
+      - name: AWS
+        level: 95%
+      - name: GCP
+        level: 85%
+      - name: Azure
+        level: 80%
+  - category: Containerization & Orchestration
+    tools:
+      - name: Kubernetes
+        level: 95%
+      - name: Docker
+        level: 90%
+      - name: Helm
+        level: 85%
+      - name: AWS ECS
+        level: 85%
+  - category: High Performance Compute (HPC)
+    tools:
+      - name: IBM Symphony
+        level: 90%
+      - name: Tibco GridServer
+        level: 85%
+      - name: AWS Batch
+        level: 85%
+  - category: IaC & CI/CD
+    tools:
+      - name: Terraform
+        level: 95%
+      - name: CloudFormation
+        level: 90%
+      - name: CDK
+        level: 85%
+      - name: GitOps (ArgoCD, Flux)
+        level: 85%
+  - category: others
+    tools:
+      - Linux
+      - UNIX
+      - AIX
+      - Windows Server
+      - VMware
+      - Hyper-V
+      - OpenStack
+      - VPC
+      - Firewalls
+      - Load Balancers
+      - VPN
+      - SQL
+      - NoSQL
+      - Key-Value Stores
+      - Caches
+      - Python
+      - Bash
+      - PowerShell
+
+awards:
+  - name: FINOS OSFF London & NYC
+    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.
+  - name: KCD London & Oslo
+    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.
+  - name: AWS reInvent & Summits
+    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.

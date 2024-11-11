@@ -1,0 +1,46 @@
+# Update all the sections by editing the data.yml file inside _data folder.
+
+# Site Settings
+
+# SEO plugin
+title: Flamur Gogolli | Resume
+author: Flamur Gogolli
+tagline: Cloud Architect | Platform / DevOps / Systems Engineer # Short description for jekyll-seo-tag
+description: Flamur Gogolli's Resume # Longer description for jekyll-seo-tag
+
+url: "https://resume.flamur.dev"
+baseurl: "/" # change it according to your repository name
+
+twitter:
+  username: flamurgogolli
+  card: summary
+
+social:
+  links:
+    - https://www.linkedin.com/in/flamurgogolli
+    - https://github.com/fgogolli
+
+google_site_verification: # Put your google verification tag here
+
+# End SEO
+
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: gray # gray blue turquoise green berry red
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
