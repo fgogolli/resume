@@ -1,15 +1,16 @@
 header:
   # Profile information
-  avatar: profile.jpg
+  avatar: profile.png #profile.jpg
   email: mail@flamur.dev
   phone: 
-  website: https://resume.flamur.dev
+  website: #resume.flamur.dev
   linkedin: flamurgogolli
   github: fgogolli
   gitlab:
   bitbucket:
-  twitter:
   stack-overflow:
+  sessionize: flamur
+  twitter:
   codewars:
   goodreads:
 
@@ -41,7 +42,7 @@ summary: |
   A seasoned cloud engineer and architect with over 22 years of progressive experience in technology leadership, cloud architecture, and digital transformation. Currently serving as a member of the TOC at FINOS and as a Senior Specialist Solutions Architect at AWS, I bring hands-on expertise in cloud-native technologies, systems & platform engineering, and technical leadership. My career spans roles across multiple industries, including major financial institutions, global tech companies, media and telecommunications providers, where I've consistently delivered complex technical solutions and led high-performing teams.
 
 education:
-  - degree: Bachelor's Degree in Computer Science and Engineering
+  - degree: BSc in Computer Science and Engineering
     university: University for Business and Technology
     time: 2012
     details: |
@@ -366,8 +367,8 @@ skills:
 
 awards:
   - name: FINOS OSFF London & NYC
-    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.
+    description: Presented at FINOS Open Source in Finance Forum in London and New York on HTC-Grid.
   - name: KCD London & Oslo
-    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.
+    description: Presented at Kubernetes Community Days in London and Oslo on running cloud-native game servers on Kubernetes.
   - name: AWS reInvent & Summits
-    description: Frequent speaker at major tech conferences including FINOS OSFF London & NYC, KCD London & Oslo, AWS reInvent & Summits.
+    description: Regularly present at AWS Summits and reInvent on topics related to AWS Compute and other customer use-cases.

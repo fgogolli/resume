@@ -7,9 +7,12 @@
                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ site.author }}</h1>
                 <div class="title mb-3">{{ site.tagline }}</div>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
-                                data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
+                    {% if header.email %}
+                    <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
+                    {% endif %}
+                    {% if header.phone %}
                     <li><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                    {% endif %}
                 </ul>
             </div>
             <!--//primary-info-->
@@ -17,7 +20,7 @@
                 <ul class="resume-social list-unstyled">
                 {% if header.linkedin %}
                     <li class="mb-3">
-                        <a href="https://linkedin.com/in/{{ header.linkedin }}">
+                        <a href="https://linkedin.com/in/{{ header.linkedin }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-linkedin-in fa-fw"></i>
                             </span>
@@ -27,7 +30,7 @@
                 {% endif %}
                 {% if header.github %}
                     <li class="mb-3">
-                        <a href="https://github.com/{{ header.github }}">
+                        <a href="https://github.com/{{ header.github }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-github-alt fa-fw"></i>
                             </span>
@@ -37,7 +40,7 @@
                 {% endif %}
                 {% if header.gitlab %}
                     <li class="mb-3">
-                        <a href="https://gitlab.com/{{ header.gitlab }}">
+                        <a href="https://gitlab.com/{{ header.gitlab }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-gitlab fa-fw"></i>
                             </span>
@@ -47,7 +50,7 @@
                 {% endif %}
                 {% if header.bitbucket %}
                     <li class="mb-3">
-                        <a href="https://bitbucket.com/{{ header.bitbucket }}">
+                        <a href="https://bitbucket.com/{{ header.bitbucket }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-bitbucket fa-fw"></i>
                             </span>
@@ -57,7 +60,7 @@
                 {% endif %}
                 {% if header.stack-overflow %}
                     <li class="mb-3">
-                        <a href="https://stackoverflow.com/users/{{ header.stack-overflow }}">
+                        <a href="https://stackoverflow.com/users/{{ header.stack-overflow }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-stack-overflow fa-fw"></i>
                             </span>
@@ -67,9 +70,9 @@
                 {% endif %}
                 {% if header.sessionize %}
                     <li class="mb-3">
-                        <a href="https://sessionize.com/{{ header.sessionize }}">
+                        <a href="https://sessionize.com/{{ header.sessionize }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
-                                <i class="fab fa-stack-overflow fa-fw"></i>
+                                <i class="fas fa-microphone fa-fw"></i>
                             </span>
                             {{ header.sessionize }}
                         </a>
@@ -77,7 +80,7 @@
                 {% endif %}
                 {% if header.twitter %}
                     <li class="mb-3">
-                        <a href="https://twitter.com/{{ header.twitter }}">
+                        <a href="https://twitter.com/{{ header.twitter }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-twitter fa-fw"></i>
                             </span>
@@ -87,7 +90,7 @@
                 {% endif %}
                 {% if header.codewars %}
                     <li class="mb-3">
-                        <a href="https://www.codewars.com/users/{{ header.codewars }}/completed_solutions">
+                        <a href="https://www.codewars.com/users/{{ header.codewars }}/completed_solutions" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fas fa-code fa-fw"></i>
                             </span>
@@ -97,7 +100,7 @@
                 {% endif %}
                 {% if header.goodreads %}
                     <li class="mb-3">
-                        <a href="https://www.goodreads.com/user/show/{{ header.goodreads }}">
+                        <a href="https://www.goodreads.com/user/show/{{ header.goodreads }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fab fa-goodreads-g fa-fw"></i>
                             </span>
@@ -107,7 +110,7 @@
                 {% endif %}
                 {% if header.website %}
                     <li class="mb-3">
-                        <a href="{{ header.website }}">
+                        <a href="{{ header.website }}" target="_blank" rel="noopener noreferrer">
                             <span class="fa-container text-center mr-2">
                                 <i class="fas fa-globe"></i>
                             </span>
